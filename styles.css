@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.heading {
+  color: hsl(300, 43%, 22%);
+  max-width: 400px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  gap: 10px;
+  width: 500px;
+  padding: 20px;
+}
+.ratings .rating-1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+}
+.ratings .rating-2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+}
+.ratings .rating-3 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  background-color: hsl(300, 24%, 96%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  margin-left: auto;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 900;
+  margin-left: 5px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.reviews section {
+  background-color: hsl(300, 43%, 22%);
+  max-width: 400px;
+  height: 250px;
+  margin: 10px;
+}
+.reviews .person {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.reviews .person img {
+  border-radius: 50%;
+  margin: 10px;
+  height: 60px;
+}
+.reviews .person h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: hsl(300, 24%, 96%);
+  padding: 10px;
+  font-size: 20px;
+}
+.reviews .person h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: hsl(333, 80%, 67%);
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.irene {
+  align-self: center;
+}
+
+.anne {
+  align-self: flex-end;
+}
+
+.reviews p {
+  color: hsl(300, 24%, 96%);
+  margin: 20px;
+  line-height: 22px;
+  font-weight: 200;
+  font-size: 15px;
+  position: relative;
+  top: 20px;
+}
+
+.colton, .anne, .irene {
+  border-radius: 15px;
+}/*# sourceMappingURL=styles.css.map */
